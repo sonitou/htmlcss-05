@@ -96,11 +96,12 @@ a {
 
 .navbar__list {
     display: flex;
+    align-items: center;
+    gap: 38px;
     margin-left: 407px;
 }
 
 .navbar__link {
-    padding: 8px 19px;
     color: #575d5e;
     font-family: "Public Sans";
     font-size: 1.8rem;
@@ -110,16 +111,21 @@ a {
 .navbar__link:hover,
 .navbar__link--active {
     color: #152427;
-    text-shadow: currentColor;
+    text-shadow: 1px 0 0 currentColor;
     font-weight: 600;
+}
+
+.navbar__link--active {
+    position: relative;
 }
 
 .navbar__link--active::after {
     content: "";
-    position: relative;
-    bottom: -26px;
-    left: 22px;
-    display: inline-block;
+    position: absolute;
+    bottom: -30px;
+    left: 10%;
+    transform: translateX(-10%);
+    display: block;
     width: 16px;
     height: 2px;
     background: #143c3c;
