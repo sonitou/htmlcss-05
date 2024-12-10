@@ -412,6 +412,10 @@ a {
     column-gap: 16px;
 }
 
+.service--item {
+    transition: 0.25s;
+}
+
 .service-item:hover .service-item__img-bg {
     transform: scale(1.1);
     border-radius: 20px;
@@ -447,4 +451,110 @@ a {
     font-weight: 500;
     line-height: 1.72;
     max-width: 268px;
+}
+/* ======= About ======= */
+.about {
+    margin-top: 139px;
+}
+
+.about__inner {
+    display: flex;
+}
+
+.about__media {
+    position: relative;
+    margin-right: 64px;
+}
+
+.about__images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 21px;
+    width: 591px;
+    height: 557px;
+}
+
+.about__img {
+    width: 284px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 210px;
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.about__img:hover {
+    transform: translateY(77px);
+}
+
+.about__img--info {
+    position: absolute;
+    bottom: -50px;
+    right: -65px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.about__flowers-bg {
+    position: absolute;
+    top: -32px;
+    left: 46px;
+}
+
+.about__flowers-rope {
+    position: absolute;
+    top: 12px;
+    left: 85px;
+}
+
+.about__desc {
+    margin-top: 11px;
+    color: #7d8188;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.63;
+    max-width: 478px;
+}
+
+.about__info {
+    margin-top: 36px;
+}
+
+.about-item {
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.about-item::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 485px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: #83a17d;
+}
+
+.about-item:last-child {
+    margin-top: 38px;
+}
+
+.about-item__heading {
+    color: #152427;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.24;
+}
+
+.about-item__desc {
+    max-width: 364px;
+    color: #7d8188;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.71;
 }
