@@ -665,3 +665,78 @@ a {
     line-height: 1.56;
     transition: 0.25s;
 }
+
+/* ======= Project ======= */
+.project {
+    margin-top: 148px;
+    background: #143c3c;
+}
+
+.project__header {
+    padding-top: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project__heading {
+    max-width: 457px;
+    color: #e7f9f9;
+}
+
+.section-heading.project__heading::after {
+    background: #fff;
+}
+
+.project__info--desc {
+    color: #6a8383;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    max-width: 590px;
+}
+
+.project-link__cta {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.project-link {
+    color: #fff;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    margin-right: 26px;
+}
+
+.project__arrow {
+    width: 20px;
+    height: 10px;
+}
+
+video {
+    margin-top: 65px;
+    width: 1140px;
+    height: 544px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.project__flowers {
+    position: relative;
+}
+
+.project-flowers {
+    position: absolute;
+    top: -615px;
+    right: -50px;
+}
+
+.project-rope {
+    position: absolute;
+    top: -710px;
+    right: -50px;
+}
