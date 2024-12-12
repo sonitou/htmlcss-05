@@ -686,7 +686,7 @@
                     </header>
                     <div class="blog__list">
                         <!-- Blog item 1 -->
-                        <div class="blog-item">
+                        <article class="blog-item">
                             <figure class="blog__images">
                                 <img
                                     src="./assets/img/blog-01.svg"
@@ -694,7 +694,7 @@
                                     class="blog-item_img"
                                 />
                             </figure>
-                            <section class="blog__body">
+                            <div class="blog__body">
                                 <p class="blog__body--title">STORIES</p>
                                 <h3 class="blog__body--heading">
                                     What did we learn from nunning over 100
@@ -703,10 +703,10 @@
                                 <p class="blog__body--calendar">
                                     JANUARY 29, 2022
                                 </p>
-                            </section>
-                        </div>
+                            </div>
+                        </article>
                         <!-- Blog item 2 -->
-                        <div class="blog-item">
+                        <article class="blog-item">
                             <figure class="blog__images">
                                 <img
                                     src="./assets/img/blog-02.svg"
@@ -714,7 +714,7 @@
                                     class="blog-item_img"
                                 />
                             </figure>
-                            <section class="blog__body">
+                            <div class="blog__body">
                                 <p class="blog__body--title">STORIES</p>
                                 <h3 class="blog__body--heading">
                                     The difference between the UI/UX design a
@@ -723,10 +723,10 @@
                                 <p class="blog__body--calendar">
                                     JANUARY 29, 2022
                                 </p>
-                            </section>
-                        </div>
+                            </div>
+                        </article>
                         <!-- Blog item 3 -->
-                        <div class="blog-item">
+                        <article class="blog-item">
                             <figure class="blog__images">
                                 <img
                                     src="./assets/img/blog-03.svg"
@@ -734,7 +734,7 @@
                                     class="blog-item_img"
                                 />
                             </figure>
-                            <section class="blog__body">
+                            <div class="blog__body">
                                 <p class="blog__body--title">STORIES</p>
                                 <h3 class="blog__body--heading">
                                     How marketing can help your business more
@@ -743,11 +743,144 @@
                                 <p class="blog__body--calendar">
                                     JANUARY 29, 2022
                                 </p>
-                            </section>
-                        </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>
         </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__body">
+                    <div class="footer__action">
+                        <h2 class="footer__info--heading">
+                            Sign up for our newsletter
+                        </h2>
+                        <form class="footer__form" action="">
+                            <input
+                                class="footer__form--input"
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Enter your email"
+                            />
+                            <a href="#!" class="footer__form--cta">
+                                <img
+                                    src="./assets/icons/left_arrow.svg"
+                                    alt="left_arrow"
+                                />
+                            </a>
+                        </form>
+                        <div class="footer__social">
+                            <a href="#!" class="footer__social--link">
+                                <img
+                                    src="./assets/img/footer_fb.svg"
+                                    alt="Facebook"
+                                    class="footer__social--img"
+                                />
+                            </a>
+                            <a href="#!" class="footer__social--link">
+                                <img
+                                    src="./assets/img/footer_instagram.svg"
+                                    alt="Instagram"
+                                    class="footer__social--img"
+                                />
+                            </a>
+                            <a href="#!" class="footer__social--link">
+                                <img
+                                    src="./assets/img/footer_twitter.svg"
+                                    alt="twitter"
+                                    class="footer__social--img"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <h3 class="footer__heading">Pages</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Home</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">About</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Blog</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Blog post</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h3 class="footer__heading">Product</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Home</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">About</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Blog</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Blog post</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h3 class="footer__heading">Overview</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Home1</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Home2</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Home3</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Pricing1</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__column">
+                            <h3 class="footer__heading">About us</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Team</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link"
+                                        >Investors</a
+                                    >
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Blog</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#!" class="footer__link">Press</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-copyright__text">
+                        2021 GDN. Copyright and All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
